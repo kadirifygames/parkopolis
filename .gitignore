@@ -1,0 +1,60 @@
+# ---- Bu depoda olmayacaklar ----
+
+# Derlenmiş oyun dosyaları (APK/AAB), önizleme kopyası, ekran görüntüleri
+/Builds/
+/.preview/
+/Screenshots/
+
+# İmza anahtarları ASLA GitHub'a gitmesin
+*.keystore
+*.jks
+/Keys/
+
+# ---- Unity (Unity'nin kendi ürettiği, her bilgisayarda yeniden oluşan dosyalar) ----
+ParkingGame/[Ll]ibrary/
+ParkingGame/[Tt]emp/
+ParkingGame/[Oo]bj/
+ParkingGame/[Bb]uild/
+ParkingGame/[Bb]uilds/
+ParkingGame/[Ll]ogs/
+ParkingGame/[Uu]ser[Ss]ettings/
+ParkingGame/[Mm]emoryCaptures/
+ParkingGame/[Rr]ecordings/
+
+# Unity'nin oluşturduğu IDE dosyaları
+ParkingGame/.vs/
+ParkingGame/.vscode/
+ParkingGame/.idea/
+ParkingGame/*.csproj
+ParkingGame/*.unityproj
+ParkingGame/*.sln
+ParkingGame/*.suo
+ParkingGame/*.user
+ParkingGame/*.userprefs
+ParkingGame/*.pidb
+ParkingGame/*.booproj
+ParkingGame/*.svd
+ParkingGame/*.pdb
+ParkingGame/*.mdb
+ParkingGame/*.opendb
+ParkingGame/*.VC.db
+
+# Çökme raporları, geçici dosyalar
+ParkingGame/sysinfo.txt
+ParkingGame/crashlytics-build.properties
+*.apk
+*.aab
+*_BurstDebugInformation_DoNotShip/
+
+# İşletim sistemi çöpleri
+.DS_Store
+Thumbs.db
+desktop.ini
+ParkingGame/*.slnx
+
+# Kişisel yol haritası (sadece yerelde)
+PLAN.md
+
+# Yerel geliştirme araçları
+ParkingGame/Assets/_Game/Editor/Local/
+ParkingGame/Assets/_Game/Editor/Local.meta
