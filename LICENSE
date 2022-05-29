@@ -1,0 +1,23 @@
+Copyright (c) 2022 Kadirify Games. All rights reserved.
+
+This repository, including its source code, game design, levels, graphics,
+logos and other assets, is the proprietary work of Kadirify Games.
+
+No license is granted to copy, modify, distribute, sublicense, publish or
+sell this software or any part of it, in source or compiled form, without
+prior written permission from Kadirify Games.
+
+Viewing the source code on GitHub does not grant any rights to use it.
+
+Third-party components are distributed under their own licenses:
+- Fredoka font: SIL Open Font License 1.1
+  (ParkingGame/Assets/_Game/Resources/Fonts/GameFont-OFL-License.txt)
+- Unity engine and packages: Unity Software Inc. terms
+
+---
+
+Telif Hakkı (c) 2022 Kadirify Games. Tüm hakları saklıdır.
+
+Bu depodaki kaynak kodu, oyun tasarımı, leveller, grafikler, logolar ve diğer
+içerikler Kadirify Games'e aittir. Kadirify Games'in yazılı izni olmadan
+kopyalanamaz, değiştirilemez, dağıtılamaz, yayınlanamaz veya satılamaz.
