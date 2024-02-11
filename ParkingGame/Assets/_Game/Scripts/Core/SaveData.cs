@@ -16,7 +16,7 @@ namespace Kadirify.Parkopolis
         public static int Coins
         {
             get => PlayerPrefs.GetInt("coins", 150);
-            set { PlayerPrefs.SetInt("coins", value); PlayerPrefs.Save(); }
+            set { PlayerPrefs.SetInt("coins", Mathf.Max(0, value)); PlayerPrefs.Save(); }
         }
 
         /// <summary>Sandık ilerlemesi: her ChestEvery levelde bir sandık açılır.</summary>
