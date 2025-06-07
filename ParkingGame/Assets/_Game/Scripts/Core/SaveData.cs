@@ -9,7 +9,7 @@ namespace Kadirify.Parkopolis
     {
         public static int Level
         {
-            get => PlayerPrefs.GetInt("level", 1);
+            get => Mathf.Max(1, PlayerPrefs.GetInt("level", 1));
             set { PlayerPrefs.SetInt("level", value); PlayerPrefs.Save(); }
         }
 
