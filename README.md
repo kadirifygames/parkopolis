@@ -40,7 +40,7 @@ Branding/            logolar
 ```
 
 ## Lisans
-© 2022 Kadirify Games. Tüm hakları saklıdır. Ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
+© 2026 Kadirify Games. Tüm hakları saklıdır. Ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
 
 ---
 <p align="center">© Kadirify Games</p>
