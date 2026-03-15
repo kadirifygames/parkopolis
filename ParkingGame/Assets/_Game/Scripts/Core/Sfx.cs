@@ -27,7 +27,7 @@ namespace Kadirify.Parkopolis
         /// <summary>pitch verilirse sesi o tonda çalar (kombo için giderek tizleşen ses).</summary>
         public static void Play(Sound s, float volume = 1f, float pitch = -1f)
         {
-            if (I == null) return;
+            if (I == null || !SaveData.Sound) return;
             AudioClip clip = s switch
             {
                 Sound.Whoosh => I.whoosh,
